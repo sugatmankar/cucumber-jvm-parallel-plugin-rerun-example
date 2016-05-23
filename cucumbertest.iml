@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/target/generated-test-sources/cucumber" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target/cucumber-parallel" />
+      <excludeFolder url="file://$MODULE_DIR$/target/maven-archiver" />
+      <excludeFolder url="file://$MODULE_DIR$/target/maven-status" />
+      <excludeFolder url="file://$MODULE_DIR$/target/surefire-reports" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$" />
+          <root url="file://$MODULE_DIR$/resources" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/src" />
+          <root url="file://$MODULE_DIR$/target/generated-test-sources/cucumber" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Maven: com.github.temyers:cucumber-jvm-parallel-plugin:1.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.velocity:velocity:1.7" level="project" />
+    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.4" level="project" />
+    <orderEntry type="library" name="Maven: info.cukes:cucumber-junit:1.2.4" level="project" />
+    <orderEntry type="library" name="Maven: info.cukes:cucumber-java:1.2.4" level="project" />
+    <orderEntry type="library" name="Maven: info.cukes:cucumber-core:1.2.4" level="project" />
+    <orderEntry type="library" name="Maven: info.cukes:cucumber-html:0.2.3" level="project" />
+    <orderEntry type="library" name="Maven: info.cukes:cucumber-jvm-deps:1.0.5" level="project" />
+    <orderEntry type="library" name="Maven: info.cukes:gherkin:2.12.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.maven:maven-plugin-api:3.2.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-model:3.2.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact:3.2.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.0.M1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.enterprise:cdi-api:1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.annotation:jsr250-api:1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.eclipse.sisu:org.eclipse.sisu.inject:0.3.0.M1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.codehaus.plexus:plexus-component-annotations:1.5.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.codehaus.plexus:plexus-classworlds:2.5.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.maven.plugin-tools:maven-plugin-annotations:3.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.codehaus.plexus:plexus-utils:3.0.15" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: junit:junit:4.11" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:19.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.7.2" level="project" />
+    <orderEntry type="library" name="Maven: net.masterthought:cucumber-reporting:0.0.24" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.2.4" level="project" />
+    <orderEntry type="library" name="Maven: velocity-tools:velocity-tools:1.4" level="project" />
+    <orderEntry type="library" name="Maven: joda-time:joda-time:2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.mockito:mockito-all:1.9.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.plugins:maven-gpg-plugin:1.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-project:2.0.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-settings:2.0.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-profile:2.0.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-artifact-manager:2.0.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-repository-metadata:2.0.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven.wagon:wagon-provider-api:1.0-beta-2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.maven:maven-plugin-registry:2.0.6" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.totallylazy:totallylazy:1.20" level="project" />
+  </component>
+</module>

@@ -1,0 +1,50 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Generate Junit Runner for each feature file",
+        "description": "",
+        "id": "feature4;generate-junit-runner-for-each-feature-file",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1938004647,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I subtract 20 and 10",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 11
+                },
+                {
+                  "val": "10",
+                  "offset": 18
+                }
+              ],
+              "location": "TestSteps.i_subtract_and(int,int)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@complete"
+          }
+        ]
+      }
+    ],
+    "name": "Feature4",
+    "description": "",
+    "id": "feature4",
+    "keyword": "Feature",
+    "uri": "features/feature2.feature"
+  }
+]

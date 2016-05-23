@@ -1,0 +1,68 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Generate Junit Runner for each feature file",
+        "description": "",
+        "id": "feature1;generate-junit-runner-for-each-feature-file",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1913257524,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I add two numbers 11 and 20",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 18
+                },
+                {
+                  "val": "20",
+                  "offset": 25
+                }
+              ],
+              "location": "TestSteps.i_add_two_numbers_and(int,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 329503,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify sum is 21",
+            "match": {
+              "arguments": [
+                {
+                  "val": "21",
+                  "offset": 16
+                }
+              ],
+              "location": "TestSteps.i_verify_sum_is(int)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@complete"
+          }
+        ]
+      }
+    ],
+    "name": "Feature1",
+    "description": "",
+    "id": "feature1",
+    "keyword": "Feature",
+    "uri": "features/feature1.feature"
+  }
+]
