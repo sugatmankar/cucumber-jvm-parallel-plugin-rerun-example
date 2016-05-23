@@ -2,7 +2,7 @@
 Purpose : How to use cucumber-jvm-parallel-plugin
 
 POM file with dependency and config as below :
-
+```xml
 <dependencies>
     <dependency>
         <groupId>com.github.temyers</groupId>
@@ -82,10 +82,11 @@ Configuration in above plugin :
 <additionalClasspathElements>
 						<additionalClasspathElement>resources</additionalClasspathElement>
 </additionalClasspathElements>
+```
 is used to avoid No classpath: found in project setting as we are using template "classpath:path/to/feature/file.feature"
 
 
-Use command : mvn clean verify
+* Run `mvn clean verify` to run test.
 
 You can see four IT files are generated in target/generated-test-sources. 
 Once this execution finish corresponding runners result output will be created under target/cucumber-parallel/
